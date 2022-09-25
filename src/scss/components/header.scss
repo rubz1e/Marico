@@ -1,0 +1,94 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 46px;
+
+    &-logo {
+        display: flex;
+        align-items: center;
+
+        &__name {
+            font-family: 'Poppins';
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 37px;
+            line-height: 56px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+    }
+
+    &-button {
+        
+
+        &__login {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #707070;
+            transition: .3s;
+        }
+
+        &__login:hover {
+            color: #3c82f4;
+        }
+
+        &__signup {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            padding: 13px 26px;
+            color: #ffffff;
+            background-color: #306EF7;
+            margin-left: 24px;
+            border-radius: 8px;
+            transition: .3s;
+        }
+
+        &__signup:hover {
+            background-color: #726CF9;
+            color: #ffffff;
+        }
+    }
+}
+
+.nav-list {
+    display: flex;
+    
+    &__item {
+        margin-right: 39px;
+        
+        &--a {
+            color: #707070;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            transition: .3s;
+        }
+
+        &--a:hover {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #3c82f4;
+        }
+    }
+
+    &__item:last-child {
+        margin-right: 0;
+    }
+
+}
+

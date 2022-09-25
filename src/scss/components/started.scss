@@ -1,0 +1,89 @@
+.started {
+    margin: 188px 0;
+
+    &-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        &__title {
+            margin-top: 20px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 100px;
+            line-height: 150px;
+            color: #ffffff;
+        }
+
+        &__description {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 43px;
+            line-height: 64px;
+            color: #ffffff;
+            margin-bottom: 14px;
+        }
+    }
+
+    &-button__started {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 24px 76px;
+        color: #ffffff;
+        background-color: #306EF7;
+        margin-bottom: 26px;
+        border-radius: 8px;
+        transition: .3s;
+    }
+
+    &-button__started:hover {
+        background-color: #726CF9;
+        color: #ffffff;
+    }
+
+    &-creators {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__online {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &--circle {
+                width: 17px;
+                height: 17px;
+                background-color: #0FC65C;;
+                border-radius: 50%;
+            }
+
+            &--online {
+                margin-left: 17px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 38px;
+                color: #ffffff;
+            }
+
+            &--title {
+                margin-left: 9px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 38px;
+                color: #707070;
+            }
+
+        }
+
+    }
+}

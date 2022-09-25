@@ -1,0 +1,23 @@
+.footer {
+    margin-bottom: 50px;
+
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-info {
+        display: flex;
+        flex-direction: column;
+
+        &__email {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 40px;
+            color: #707070;
+        }
+    }
+}

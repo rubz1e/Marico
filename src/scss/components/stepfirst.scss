@@ -1,0 +1,180 @@
+.stepfirst {
+
+    &-step {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 126px;
+
+        &__name {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 38px;
+            color: #3D82F2;
+        }
+
+        &__title {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 75px;
+            line-height: 112px;
+            color: #ffffff;
+        }
+
+        &__description {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 45px;
+            color: #707070;
+            max-width: 920px;
+            text-align: center;
+            margin-bottom: 34px;
+        }
+
+        &--demo {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            padding: 24px 38px;
+            color: #707070;
+            border: 1px solid #707070;
+            border-radius: 8px;
+            transition: .3s;
+            max-width: 313px;
+        }
+
+        &--demo:hover {
+            border: 1px solid #306EF7;
+            background-color: #306EF7;
+            color: #ffffff;
+        }
+    }
+
+
+    &-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+.stepfirst-left {
+    
+    &__name {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 45px;
+        color: #ffffff;
+        margin-top: 80px;
+    }
+
+    &__title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 75px;
+        line-height: 112px;
+        color: #ffffff;
+        margin-bottom: -40px;
+    }
+
+    &__title--gradient {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 75px;
+        line-height: 112px;
+        background-image: linear-gradient(90deg, #FE6783 1.9%, #FFBF84 97.1%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 27px;
+    }
+
+    &__number {
+        margin-bottom: 68px;
+        margin-left: 20px;
+
+        &--list {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 23px;
+            line-height: 34px;
+            color: #ffffff;
+            position: relative;
+        }
+
+        &--list::before {
+            content: counter(item);
+            counter-increment: item;
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            top: 0px;
+            left: -20px;
+            border-radius: 50%;
+        }
+
+    }
+
+    &__number {
+        list-style-type: none;
+        counter-reset: item;
+    }
+
+    &__button {
+
+        &--started {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            padding: 18px 20px;
+            color: #ffffff;
+            background-color: #306EF7;
+            margin-right: 24px;
+            border-radius: 8px;
+            transition: .3s;
+        }
+
+        &--started:hover {
+            background-color: #726CF9;
+            color: #ffffff;
+        }
+
+        &--demo {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            padding: 18px 36px;
+            color: #707070;
+            border: 1px solid #707070;
+            border-radius: 8px;
+            transition: .3s;
+        }
+
+        &--demo:hover {
+            border: 1px solid #306EF7;
+            background-color: #306EF7;
+            color: #ffffff;
+        }
+
+    }
+
+}
+
+
